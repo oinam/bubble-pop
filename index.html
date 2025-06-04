@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pop the Bubbles from the Wrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Preload bubble images for instant background rendering -->
+    <link rel="preload" href="bubble.png" as="image">
+    <link rel="preload" href="bubble-popped.png" as="image">
+
+      <!-- Preload pop audio for instant playback -->
+    <link rel="preload" href="pop-1.mp3" as="audio" type="audio/mpeg">
+    <link rel="preload" href="pop-2.mp3" as="audio" type="audio/mpeg">
+    <link rel="preload" href="pop-3.mp3" as="audio" type="audio/mpeg">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <span class="navbar-title">Pop the Bubbles from the Wrap</span>
+            <span class="navbar-counter">Popped <span id="popped-counter" class="navbar-counter-pill">0</span></span>
+        </nav>
+    </header>
+    <div class="bubble-wrap-background">
+        <div id="game-container">
+            <div id="bubble-grid" class="bubble-grid">
+                <!-- Dynamic bubbles go here -->
+            </div>
+        </div>
+    </div>
+
+    <img src="bubble.png" alt="" style="display:none;width:0;height:0;" loading="eager" decoding="async">
+    <img src="bubble-popped.png" alt="" style="display:none;width:0;height:0;" loading="eager" decoding="async">
+    <audio id="pop-sound-1" src="pop-1.mp3" preload="auto"></audio>
+    <audio id="pop-sound-2" src="pop-2.mp3" preload="auto"></audio>
+    <audio id="pop-sound-3" src="pop-3.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
