@@ -2,7 +2,7 @@
 
 Pop the bubbles and have fun.
 
-– [Oinam](https://oinam.com/)
+[bubble-pop.oinam.com](https://bubble-pop.oinam.com) by [Oinam](https://oinam.com/)
 
 ## How to Play
 
