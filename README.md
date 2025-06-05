@@ -3,6 +3,7 @@
 Pop the bubbles and have fun.
 
 [bubble-pop.oinam.com](https://bubble-pop.oinam.com) by [Oinam](https://oinam.com/)
+Source: https://github.com/oinam/bubble-pop
 
 ## How to Play
 
